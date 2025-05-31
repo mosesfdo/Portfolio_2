@@ -49,6 +49,7 @@ header {
   z-index: 1000;
 }
 
+
 .btn-menu {
   position: absolute;
   top: 9px;
@@ -61,47 +62,10 @@ header {
   background-color: #181818;
 }
 
-@property --angle {
-  syntax: "<angle>";
-  initial-value: 0deg;
-  inherits: false;
-  
-}
-
-/*.btn-menu::after,.btn-menu::before{
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-image:conic-gradient(from var(--angle),transparent,white);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-  padding: 1.2px;
-  border-radius: 5px;
-  animation: 5s spin linear infinite;
-  opacity: 0.4;
-}
-
-.btn-menu::before {
-  filter:blur(0.1rem);
-  opacity: 0.3;
-}
-
-@keyframes spin {
-  from {
-    --angle:0deg;
-  }
-  to {
-    --angle:360deg;
-  }
-  
-}*/
 
 .btn {
-  width: 40px;
-  height: 15px;
+  width: 65px;
+  height: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -120,16 +84,16 @@ header {
   background-color: #0e0e0e;
   color: white;
   text-decoration: none;
-  padding: 3px 9px;
+  padding: 10px 19px;
   object-fit: contain;
   border-radius: 4px;
-  font-size: 6px;
+  font-size: 10px;
   transform: translateY(0px);
   opacity: 0;
   transition: 250ms ease-in-out;
 }
 .btn:hover::before {
-  transform: translateY(20px);
+  transform: translateY(40px);
   opacity: 1;
 }
 
@@ -142,9 +106,9 @@ header {
 }
 
 .logo {
-  width: 100px;
+  width: 150px;
   position: absolute;
-  top: 12px;
+  top: 10px;
   left: 15px;
 }
 
