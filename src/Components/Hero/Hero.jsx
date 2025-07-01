@@ -6,6 +6,7 @@ const Hero = () => {
   return (
     <div className="hero">
         <div>
+          <section>
             <p>
                 Hi, Im Moses and Im a student
             </p>
@@ -14,7 +15,7 @@ const Hero = () => {
                 Ai Engineer
                 & Web Developer.
             </h1>
-            
+            </section>
         </div>
       <img src={image} alt="" className="hero-image" />
     </div>
